@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573105977939",
+    "project_id": "beautyshop-818b1",
+    "storage_bucket": "beautyshop-818b1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573105977939:android:b7c9b4cd879e145706a4a6",
+        "android_client_info": {
+          "package_name": "com.example.barelee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBumWRkDAENhwqcXQ7bgzWrG12pP-NW5FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
