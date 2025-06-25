@@ -17,6 +17,12 @@
             android:exported="false" />
         <activity
             android:name=".view.users.LoginActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".view.users.SplashActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".view.users.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

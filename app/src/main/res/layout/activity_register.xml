@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="#FFFFFF">
+    android:background="#FFFFFF"
+    android:layout_marginTop="100dp">
 
     <LinearLayout
         android:orientation="vertical"
@@ -36,7 +37,19 @@
             android:layout_marginTop="4dp"
             tools:ignore="HardcodedText" />
 
-
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:drawableStart="@drawable/ic_user"
+            android:drawablePadding="12dp"
+            android:background="@drawable/bg_input"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp"
+            tools:ignore="HardcodedText" />
         <!-- Email -->
         <EditText
             android:id="@+id/etEmail"
